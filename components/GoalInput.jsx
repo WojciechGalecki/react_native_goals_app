@@ -13,15 +13,17 @@ export default function GoalInput(props) {
     setNewGoal('');
   }
 
-  return <View style={styles.inputContainer}>
-    <TextInput
-      style={styles.textInput}
-      placeholder='Your goal'
-      onChangeText={goalInputHandler}
-      value={newGoal}
-    />
-    <Button title='Add Goal' onPress={addGoalHandler} />
-  </View>
+  return (
+    <View style={styles.inputContainer}>
+      <TextInput
+        style={styles.textInput}
+        placeholder='Your goal'
+        onChangeText={goalInputHandler}
+        value={newGoal}
+      />
+      <Button title='Add Goal' onPress={addGoalHandler} />
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
