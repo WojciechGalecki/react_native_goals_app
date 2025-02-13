@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo_goals_app",
     "slug": "expo_goals_app",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "backgroundColor": "#1e085a"
   }
 }
